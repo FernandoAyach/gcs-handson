@@ -3,5 +3,6 @@
  * @param {string} message - A mensagem a ser exibida.
  */
 export function logMessage(message) {
+  let messageType = 'teste';
   console.info(`[LOG] ${message}`);
 }
